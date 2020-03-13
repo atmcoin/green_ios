@@ -3,3 +3,5 @@ gdk
 gdk-iphone
 Pods
 gaios.xcworkspace
+.DS_Store
+venv
