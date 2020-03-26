@@ -35,7 +35,7 @@ class PinView: UIView {
         cancelButton.setTitle(NSLocalizedString("id_clear", comment: "").uppercased(), for: .normal)
         deleteButton.contentMode = .center
         deleteButton.imageView?.contentMode = .scaleAspectFill
-        let background = getBackgroundImage(UIColor.customMatrixGreenDark().cgColor)
+        let background = getBackgroundImage(UIColor.customDarkTeal().cgColor)
         keyButton?.enumerated().forEach { (_, button) in
             button.setBackgroundImage(background, for: UIControl.State.highlighted)
         }

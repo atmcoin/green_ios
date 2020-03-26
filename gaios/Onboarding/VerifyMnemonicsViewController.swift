@@ -121,11 +121,11 @@ class VerifyMnemonicsViewController: UIViewController {
     }
 
     func updateProcessBar() {
-        content.processNodes[questionCounter].backgroundColor = UIColor.customMatrixGreen()
-        content.processNodes[questionCounter].borderColor = UIColor.customMatrixGreen()
+        content.processNodes[questionCounter].backgroundColor = UIColor.customTeal()
+        content.processNodes[questionCounter].borderColor = UIColor.customTeal()
 
         if questionCounter > 0 {
-            content.processConnectors[questionCounter - 1].backgroundColor = UIColor.customMatrixGreen()
+            content.processConnectors[questionCounter - 1].backgroundColor = UIColor.customTeal()
         }
     }
 
@@ -180,7 +180,7 @@ class VerifyMnemonicsViewController: UIViewController {
         let question = "  ______   "
         let placeHolder = mnemonic[rangeStart...rangeEnd].joined(separator: " ").replacingOccurrences(of: mnemonic[questionPosition], with: question)
         let attributedString = NSMutableAttributedString(string: placeHolder)
-        attributedString.setColor(color: UIColor.customMatrixGreen(), forText: question)
+        attributedString.setColor(color: UIColor.customTeal(), forText: question)
         content.textLabel.attributedText = attributedString
     }
 }

@@ -32,7 +32,7 @@ class TransactionStatusTableCell: UITableViewCell {
             }
         } else {
             status = .confirmed
-            statusLabel.textColor = UIColor.customMatrixGreen()
+            statusLabel.textColor = UIColor.customTeal()
             statusLabel.text = NSLocalizedString("id_completed", comment: "")
         }
 

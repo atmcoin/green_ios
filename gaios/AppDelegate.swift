@@ -93,7 +93,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         UINavigationBar.appearance().isTranslucent = false
         UITextField.appearance().keyboardAppearance = .dark
-        UITextField.appearance().tintColor = UIColor.customMatrixGreen()
+        UITextField.appearance().tintColor = UIColor.customTeal()
         //To hide the bottom line of the navigation bar.
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .any, barMetrics: .default)
         UINavigationBar.appearance().shadowImage = UIImage()

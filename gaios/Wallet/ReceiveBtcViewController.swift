@@ -123,7 +123,7 @@ class ReceiveBtcViewController: KeyboardViewController {
         }
         if selectedType == TransactionType.BTC {
             content.fiatSwitchButton.setTitle(settings.denomination.string, for: UIControl.State.normal)
-            content.fiatSwitchButton.backgroundColor = UIColor.customMatrixGreen()
+            content.fiatSwitchButton.backgroundColor = UIColor.customTeal()
             content.fiatSwitchButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         } else {
             content.fiatSwitchButton.setTitle(settings.getCurrency(), for: UIControl.State.normal)

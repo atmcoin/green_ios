@@ -259,7 +259,7 @@ import UIKit
         self.dragPoint.autoresizingMask=[UIView.AutoresizingMask.flexibleHeight]
 
         self.dragPoint.backgroundColor    = dragPointColor
-        let gradientLayer = self.dragPoint.makeGradient(colours: [UIColor.customMatrixGreen(), UIColor.customMatrixGreenDark()], locations: nil)
+        let gradientLayer = self.dragPoint.makeGradient(colours: [UIColor.customTeal(), UIColor.customDarkTeal()], locations: nil)
         self.dragPoint.layer.insertSublayer(gradientLayer, at: 0)
         self.dragPoint.layer.cornerRadius = buttonCornerRadius
         self.addSubview(self.dragPoint)

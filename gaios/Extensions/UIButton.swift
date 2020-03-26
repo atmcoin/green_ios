@@ -34,7 +34,7 @@ extension UIButton {
     }
 
     private func createEnabledGradient() -> CAGradientLayer {
-        return createHorizontalGradientLayer(colours: [UIColor.customMatrixGreenDark(), UIColor.customMatrixGreen()])
+        return createHorizontalGradientLayer(colours: [UIColor.customDarkTeal(), UIColor.customTeal()])
     }
 
     private func createDisabledGradient() -> CAGradientLayer {

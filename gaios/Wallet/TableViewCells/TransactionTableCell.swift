@@ -101,7 +101,7 @@ class TransactionTableCell: UITableViewCell {
 
     func checkTransactionType(transaction: Transaction) {
         if isIncoming {
-            amount.textColor = isLiquid ? UIColor.blueLight() : UIColor.customMatrixGreen()
+            amount.textColor = isLiquid ? UIColor.blueLight() : UIColor.customTeal()
             imageDirection.image = UIImage(named: isLiquid ? "tx_received" : "tx_received_mainnet")
         } else {
             amount.textColor = UIColor.white

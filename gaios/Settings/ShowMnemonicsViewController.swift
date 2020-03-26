@@ -31,7 +31,7 @@ class ShowMnemonicsViewController: UIViewController {
             label.textAlignment = .center
             label.text = String(index + 1)
             label.font = UIFont.systemFont(ofSize: 12)
-            label.textColor = UIColor.customMatrixGreen()
+            label.textColor = UIColor.customTeal()
             label.translatesAutoresizingMaskIntoConstraints = false
             myView.addSubview(label)
             NSLayoutConstraint(item: label, attribute: NSLayoutConstraint.Attribute.centerX, relatedBy: NSLayoutConstraint.Relation.equal, toItem: myView, attribute: NSLayoutConstraint.Attribute.centerX, multiplier: 1, constant: 0).isActive = true

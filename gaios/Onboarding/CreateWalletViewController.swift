@@ -64,7 +64,7 @@ class CreateWalletViewController: UIViewController {
         for index in start..<end {
             let real = index+1
             let formattedString = NSMutableAttributedString(string: String("\(real) \(mnemonic[index])"))
-            formattedString.setColor(color: UIColor.customMatrixGreen(), forText: String(format: "%d", real))
+            formattedString.setColor(color: UIColor.customTeal(), forText: String(format: "%d", real))
             formattedString.setFont(font: UIFont.systemFont(ofSize: 13), stringValue: String(format: "%d", real))
             content.arrayLabels[index % 6].attributedText = formattedString
         }

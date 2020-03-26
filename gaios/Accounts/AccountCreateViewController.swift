@@ -138,7 +138,7 @@ extension AccountCreateViewController: UITableViewDelegate, UITableViewDataSourc
             } else if !isReview {
                 cell.accessoryType = .checkmark
                 selectedAccountType = accountTypes[indexPath.row]
-                nextButton.backgroundColor = UIColor.customMatrixGreen()
+                nextButton.backgroundColor = UIColor.customTeal()
                 nextButton.isUserInteractionEnabled = true
             }
         }

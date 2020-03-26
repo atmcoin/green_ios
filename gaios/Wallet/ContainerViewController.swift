@@ -75,7 +75,7 @@ class ContainerViewController: UIViewController {
 
     func connected() {
         self.networkText.text = NSLocalizedString("id_you_are_now_connected", comment: "")
-        self.networkView.backgroundColor = UIColor.customMatrixGreen()
+        self.networkView.backgroundColor = UIColor.customTeal()
         self.networkView.isHidden = false
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + DispatchTimeInterval.milliseconds(2000)) {
             self.networkView.isHidden = true

@@ -2,12 +2,13 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    class func customMatrixGreen() -> UIColor {
-        return UIColor(red: 0.0/255.0, green: 180.0/255.0, blue: 90.0/255.0, alpha: 1)
+
+    class func customTeal() -> UIColor {
+        return UIColor(red: 16.0/255.0, green: 104.0/255.0, blue: 129.0/255.0, alpha: 1)
     }
 
-    class func customMatrixGreenDark() -> UIColor {
-        return UIColor(red: 27.0/255.0, green: 119.0/255.0, blue: 69.0/255.0, alpha: 1)
+    class func customDarkTeal() -> UIColor {
+        return UIColor(red: 7.0/255.0, green: 47.0/255.0, blue: 59.0/255.0, alpha: 1)
     }
 
     class func customTitaniumDark() -> UIColor {

@@ -49,8 +49,8 @@ extension HelpViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "HelpCell") as? HelpCell {
             let linkAttributes: [NSAttributedString.Key: Any] = [
-                .foregroundColor: UIColor.customMatrixGreen(),
-                .underlineColor: UIColor.customMatrixGreen(),
+                .foregroundColor: UIColor.customTeal(),
+                .underlineColor: UIColor.customTeal(),
                 .underlineStyle: NSUnderlineStyle.single.rawValue,
                 .font: UIFont.systemFont(ofSize: 16)
             ]

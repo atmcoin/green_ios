@@ -22,7 +22,7 @@ class NetworkSelectionTableCell: UITableViewCell {
         cardView.shadowOffset = CGSize(width: 0, height: 2.0)
         cardView.shadowRadius = 4
         cardView.borderWidth = 1
-        cardView.borderColor = selected ? UIColor.customMatrixGreen() : UIColor.customModalMedium()
+        cardView.borderColor = selected ? UIColor.customTeal() : UIColor.customModalMedium()
         let indicatorImageName = selected ? "network_selected" : "network_deselected"
         indicatorImageView.image = UIImage(named: indicatorImageName)
         if let iconName = network.icon {

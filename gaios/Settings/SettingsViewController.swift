@@ -525,9 +525,9 @@ extension SettingsViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         view.backgroundColor = UIColor.customTitaniumDark()
-        view.tintColor = UIColor.customMatrixGreen()
+        view.tintColor = UIColor.customTeal()
         guard let header = view as? UITableViewCell else { return }
-        header.textLabel?.textColor = UIColor.customMatrixGreen()
+        header.textLabel?.textColor = UIColor.customTeal()
         header.textLabel?.font = UIFont.systemFont(ofSize: 16.00, weight: .light)
         header.textLabel?.adjustsFontSizeToFitWidth = true
         header.textLabel?.minimumScaleFactor = 0.5

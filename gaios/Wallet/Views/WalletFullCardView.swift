@@ -35,9 +35,9 @@ class WalletFullCardView: UIView {
         sendLabel.text = NSLocalizedString("id_send", comment: "").capitalized
         sweepLabel.text = NSLocalizedString("id_sweep", comment: "").capitalized
         receiveLabel.text = NSLocalizedString("id_receive", comment: "").capitalized
-        sendImage.tintColor = isLiquid ? .white : UIColor.customMatrixGreen()
-        sweepImage.tintColor = isLiquid ? .white : UIColor.customMatrixGreen()
-        receiveImage.tintColor = isLiquid ? .white : UIColor.customMatrixGreen()
+        sendImage.tintColor = isLiquid ? .white : UIColor.customTeal()
+        sweepImage.tintColor = isLiquid ? .white : UIColor.customTeal()
+        receiveImage.tintColor = isLiquid ? .white : UIColor.customTeal()
     }
 
     override func layoutSubviews() {

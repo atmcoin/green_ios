@@ -74,7 +74,7 @@ class TwoFactorLimitViewController: KeyboardViewController {
         let denomination = balance.get(tag: (isFiat ? "fiat"  : "btc")).1
         content.convertedLabel.text = "≈ \(amount) \(denom)"
         content.fiatButton.setTitle(denomination, for: UIControl.State.normal)
-        content.fiatButton.backgroundColor = isFiat ? UIColor.clear : UIColor.customMatrixGreen()
+        content.fiatButton.backgroundColor = isFiat ? UIColor.clear : UIColor.customTeal()
     }
 
     @objc func currencySwitchClick(_ sender: UIButton) {

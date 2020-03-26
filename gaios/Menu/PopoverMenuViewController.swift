@@ -57,7 +57,7 @@ extension PopoverMenuViewController: UITableViewDataSource, UITableViewDelegate 
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "MenuOptionCell") {
-            cell.textLabel?.textColor = isLiquid ?  UIColor.customMatrixGreen() : UIColor.customTitaniumLight()
+            cell.textLabel?.textColor = isLiquid ?  UIColor.customTeal() : UIColor.customTitaniumLight()
             let option = menuOptions[indexPath.row]
             switch option {
             case .watchOnly:

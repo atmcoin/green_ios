@@ -41,8 +41,8 @@ class InstructionViewController: UIViewController {
 
         guard let tosRange = labelString.range(of: NSLocalizedString("id_terms_of_service", comment: "")) else { return }
         let linkAttributes: [NSAttributedString.Key: Any] = [
-            .foregroundColor: UIColor.customMatrixGreen(),
-            .underlineColor: UIColor.customMatrixGreen(),
+            .foregroundColor: UIColor.customTeal(),
+            .underlineColor: UIColor.customTeal(),
             .underlineStyle: NSUnderlineStyle.single.rawValue,
             .font: UIFont.systemFont(ofSize: 16)
         ]
