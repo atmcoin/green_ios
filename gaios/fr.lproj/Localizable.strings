@@ -454,7 +454,7 @@
 "id_skip_not_recommended" = "Passer (non recommandé)";
 "id_slide_to_send" = "Glisser pour envoyer";
 "id_slow" = "Lent";
-"id_sms" = "SMS";
+"id_sms" = "Text Message";
 "id_snnreset_this_setting_and_then" = "%@.\n\nReset this setting and then re-activate it.";
 "id_socks5_hostname" = "Nom d'hôte Socks5";
 "id_socks5_port" = "Port Socks5";

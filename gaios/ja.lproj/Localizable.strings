@@ -454,7 +454,7 @@
 "id_skip_not_recommended" = "スキップ(推薦しません)";
 "id_slide_to_send" = "スライドして送金する";
 "id_slow" = "遅く";
-"id_sms" = "SMS";
+"id_sms" = "Text Message";
 "id_snnreset_this_setting_and_then" = "%@.\n\nReset this setting and then re-activate it.";
 "id_socks5_hostname" = "Socks5ホストネーム";
 "id_socks5_port" = "Socks5ポート";

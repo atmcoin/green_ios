@@ -454,7 +454,7 @@
 "id_skip_not_recommended" = "Overslaan (wordt afgeraden)";
 "id_slide_to_send" = "Sleep om te verzenden";
 "id_slow" = "Traag";
-"id_sms" = "SMS";
+"id_sms" = "Text Message";
 "id_snnreset_this_setting_and_then" = "%@.\n\nReset this setting and then re-activate it.";
 "id_socks5_hostname" = "Socks5 Hostname";
 "id_socks5_port" = "Socks5 Port";

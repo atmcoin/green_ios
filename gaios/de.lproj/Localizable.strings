@@ -454,7 +454,7 @@
 "id_skip_not_recommended" = "Überspringen (nicht Empfohlen)";
 "id_slide_to_send" = "Schieben um zu Senden";
 "id_slow" = "Langsam";
-"id_sms" = "SMS";
+"id_sms" = "Text Message";
 "id_snnreset_this_setting_and_then" = "%@.\n\nEinstellung zurücksetzen und dann reaktivieren.";
 "id_socks5_hostname" = "Socks5 Hostname";
 "id_socks5_port" = "Socks5 Port";
